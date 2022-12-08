@@ -4,9 +4,11 @@
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
     <color name="bgcolor">#1B1A1A</color>
+    <color name="bgcolor2">#292626</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="gray">#8A8A8A</color>
     <color name="orange">#FF5722</color>
+    <color name="orange3">#AA310A</color>
     <color name="orange2">#F44336</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
