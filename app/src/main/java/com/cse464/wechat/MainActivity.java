@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //otp check
+        //send otp if number is correct
         msendotp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
 
-
+            //otp code sending process
             @Override
             public void onCodeSent(@NonNull String s, @NonNull PhoneAuthProvider.ForceResendingToken forceResendingToken) {
                 super.onCodeSent(s, forceResendingToken);
@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    //1st time user
+    //2nd time user
     @Override
     protected void onStart() {
         super.onStart();
@@ -144,4 +144,5 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
 }

@@ -58,7 +58,7 @@ public class otpAuthentication extends AppCompatActivity {
                 enteredotp=mgetotp.getText().toString();
                 if(enteredotp.isEmpty())
                 {
-                    Toast.makeText(getApplicationContext(),"Enter your OTP First ",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"Enter your OTP First",Toast.LENGTH_SHORT).show();
                 }
                 else
 
