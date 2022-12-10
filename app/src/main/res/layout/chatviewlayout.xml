@@ -83,10 +83,6 @@
             android:layout_toRightOf="@id/cardviewofuser"
             android:layout_marginTop="-5dp" />
 
-
-
-
-
     </RelativeLayout>
 
 

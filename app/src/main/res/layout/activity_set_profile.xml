@@ -51,9 +51,9 @@
         android:layout_marginLeft="70dp"
         android:layout_marginRight="70dp"
         android:gravity="center"
-        android:textColor="@color/white"
         android:hint="Enter Your Name Here"
         android:inputType="textCapWords"
+        android:textColor="@color/white"
         android:textColorHint="@color/gray">
 
     </EditText>
