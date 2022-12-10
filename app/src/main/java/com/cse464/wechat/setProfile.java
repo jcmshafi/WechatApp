@@ -134,7 +134,7 @@ public class setProfile extends AppCompatActivity {
         sendDataToRealTimeDatabase();
 
     }
-    //send name and id
+    //STORE name and id
     private void sendDataToRealTimeDatabase() {
 
 
@@ -151,7 +151,7 @@ public class setProfile extends AppCompatActivity {
 
 
     }
-    //image and same id
+    //image and same id send to storage
     private void sendImagetoStorage() {
 
         StorageReference imageref=storageReference.child("Images").child(firebaseAuth.getUid()).child("Profile Pic");

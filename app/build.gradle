@@ -45,4 +45,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
     //county code picker library
     implementation 'com.hbb20:ccp:2.5.1'
+
+    //fetch image from firebase
+    implementation 'com.squareup.picasso:picasso:2.71828'
 }
