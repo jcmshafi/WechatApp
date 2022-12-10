@@ -54,6 +54,7 @@
         android:hint="Enter Your Name Here"
         android:inputType="textCapWords"
         android:textColor="@color/white"
+        android:background="@color/bgcolor"
         android:textColorHint="@color/gray">
 
     </EditText>
